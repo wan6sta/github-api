@@ -1,0 +1,17 @@
+body {
+ padding: 30px;
+}
+
+* {
+ font-size: 18px;
+}
+
+.li {
+ width: 300px;
+ cursor: pointer;
+ transition: 0.1s ease-out;
+ user-select: none;
+  &:hover {
+   background-color: rgba(24, 144, 255, 0.5);
+  }
+}
